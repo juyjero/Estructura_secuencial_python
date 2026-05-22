@@ -1,0 +1,5 @@
+x = float(input("Ingrese el número: "))
+doble = x * 2
+triple = x * 3
+print("El doble del número es:", doble)
+print("El triple del número es:", triple)

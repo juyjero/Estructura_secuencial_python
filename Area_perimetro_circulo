@@ -1,0 +1,6 @@
+import math
+radio = float(input("Ingrese el radio: "))
+area = math.pi * radio**2
+perimetro = 2 * math.pi * radio
+print("El área es:", area, "(cm^2)")
+print("El perímetro es:", perimetro, "(cm)")

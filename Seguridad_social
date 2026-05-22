@@ -1,0 +1,9 @@
+salariobase = float(input("Ingrese el salario base del empleado: "))
+aportesalud = salariobase * 0.04
+aportepension = salariobase * 0.04
+descuento = aportesalud + aportepension
+salarioneto = salariobase - descuento
+print("El aporte a salud es de:", aportesalud)
+print("El aporte a pensión es de:", aportepension)
+print("El descuento es de:", descuento)
+print("El salario neto a pagar es:", salarioneto)
